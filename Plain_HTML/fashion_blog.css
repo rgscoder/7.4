@@ -1,0 +1,112 @@
+html {
+    font-family: sans-serif;
+}
+
+header, main, footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    border-left: 5px solid lightgray;
+    min-height: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+
+.list {
+    padding: 0px;
+    list-style-type: none;
+    align-self: left;
+}
+
+.list-items {
+    display:flex;
+    justify-content: space-between;
+}
+
+.headnav {
+   color: lightgray;
+   font-size: 20px;
+}
+
+.footnav {
+    color: tomato;
+}
+
+article {
+margin-bottom: 4rem;
+border-bottom: 1px solid lightgray;
+padding-bottom: 2rem;
+}
+
+#main {
+    background-color: white;
+}
+
+.continue {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    color: tomato;
+}
+
+#para1::first-letter, #para2::first-letter {
+    font-size: 5rem;
+    color: lightgray;
+    float: left;
+}
+
+#para1, #para2 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#copyright {
+    color: lightgray;
+    font-size: smaller;
+}
+
+
+.text-gray {
+    color: gray;
+}
+
+main {
+    margin-bottom: -30px;
+    padding-bottom: none;
+}
+footer {
+    margin-top: 0px;
+}
+
+h1 {
+    color: tomato;
+    font-weight: lighter;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-weight: lighter;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
